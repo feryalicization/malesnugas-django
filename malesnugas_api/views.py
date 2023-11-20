@@ -12,7 +12,7 @@ from rest_framework import generics
 
 
 
-# Create your views here.
+
 def current_datetime(request):
     now = datetime.datetime.now()
     user = User.objects.all().filter(username='fery').first()
