@@ -7,12 +7,12 @@ from .views import UserListAPIView, UserRetrieveUpdateDestroyAPIView
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Your API",
+      title="Males Nugas API",
       default_version='v1',
-      description="Your API description",
+      description="Males Nugas API for business",
       terms_of_service="https://www.yourapp.com/terms/",
-      contact=openapi.Contact(email="contact@yourapp.com"),
-      license=openapi.License(name="Your License"),
+      contact=openapi.Contact(email="fery.chaerul.ismail94@gmail.com"),
+      license=openapi.License(name="Fery Ismail"),
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
